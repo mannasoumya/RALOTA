@@ -17,3 +17,4 @@ $ py pseudo_random_num.py 10 100 5
 - https://en.wikipedia.org/wiki/Random_number_generation
 - https://en.wikipedia.org/wiki/Wichmann%E2%80%93Hill
 - https://en.wikipedia.org/wiki/Linear_congruential_generator
+- https://spec.oneapi.io/versions/latest/elements/oneMKL/source/domains/rng/mkl-rng-mrg32k3a.html
