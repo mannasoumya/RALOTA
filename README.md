@@ -45,3 +45,4 @@ $ go run .\xorshift.go 10 100 5
 - https://spec.oneapi.io/versions/latest/elements/oneMKL/source/domains/rng/mkl-rng-mrg32k3a.html
 - https://www.jstatsoft.org/article/download/v008i14/916
 - https://en.wikipedia.org/wiki/Xorshift
+- http://www.thesalmons.org/john/random123/papers/random123sc11.pdf
