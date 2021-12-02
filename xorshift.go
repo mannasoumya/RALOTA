@@ -77,10 +77,16 @@ func generate_random_number() float64 {
 
 func generate(ll int64, ul int64, how_many int64) []int64 {
 	i := 0
+	var m_a_p = make(map[int64]string)
 	var x = make([]int64, how_many)
 	for i < int(how_many) {
-		x[i] = squeeze_range_int(ll, ul, generate_random_number())
-		i++
+		ran_num := squeeze_range_int(ll, ul, generate_random_number())
+		_, ok := m_a_p[ran_num]
+		if !ok {
+			x[i] = ran_num
+			m_a_p[ran_num] = ""
+			i++
+		}
 	}
 	return x
 }
