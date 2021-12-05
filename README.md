@@ -2,7 +2,7 @@
 ###### this name has nothing to do with the algorithms (actually it is also randomly generated through a code)
 
 ## Quick Start
-#### WichMann Hill (in Python)
+#### WichMann Hill (in [Python](https://www.python.org/))
 ```console
 $ python pseudo_random_num.py  # This is using WichMann_Hill
 Usage: python .\pseudo_random_num.py <lower-limit> <upper-limit> <how-many>
@@ -13,7 +13,7 @@ $ python pseudo_random_num.py 10 100 5
 18
 12
 ```
-#### MRG32k3a (in Julia)
+#### MRG32k3a (in [Julia](https://julialang.org/))
 ```console
 $ julia .\MRG32k3a.jl
 Usage: julia .\MRG32k3a.jl <lower-limit> <upper-limit> <how-many>
@@ -24,7 +24,7 @@ $ julia .\MRG32k3a.jl 10 100 5
 78
 14
 ```
-#### Xorshift (in Golang)
+#### Xorshift (in [Golang](https://go.dev/))
 ```console
 $ go run .\xorshift.go
 Usage: go run xorshift.go <lower-limit> <upper-limit> <how-many>
@@ -37,7 +37,7 @@ $ go run .\xorshift.go 10 100 5
 90
 ```
 
-#### Park Miller (in Nim)
+#### Park Miller (in [Nim](https://nim-lang.org/))
 ```console
 $ nim c .\Park_Miller.nim 
 $ .\Park_Miller.exe 
