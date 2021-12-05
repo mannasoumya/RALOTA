@@ -37,6 +37,16 @@ $ go run .\xorshift.go 10 100 5
 90
 ```
 
+#### Park Miller (in Nim)
+```console
+$ nim c .\Park_Miller.nim 
+$ .\Park_Miller.exe 
+
+Usage: 'Park_Miller.exe' <how-many>
+
+$ .\Park_Miller.exe 100
+```
+
 ## References
 - https://www.math.arizona.edu/~tgk/mc/book_chap3.pdf
 - https://en.wikipedia.org/wiki/Random_number_generation
@@ -46,3 +56,4 @@ $ go run .\xorshift.go 10 100 5
 - https://www.jstatsoft.org/article/download/v008i14/916
 - https://en.wikipedia.org/wiki/Xorshift
 - http://www.thesalmons.org/john/random123/papers/random123sc11.pdf
+- https://en.wikipedia.org/wiki/Lehmer_random_number_generator
