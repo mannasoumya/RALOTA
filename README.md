@@ -46,6 +46,11 @@ Usage: 'Park_Miller.exe' <how-many>
 
 $ .\Park_Miller.exe 100
 ```
+#### Permuted congruential generator (in [C](https://www.open-std.org/jtc1/sc22/wg14/))
+```console
+$ gcc permuted_congruential_generator.c -o permuted_congruential_generator
+$ ./permuted_congruential_generator
+```
 
 ## References
 - https://www.math.arizona.edu/~tgk/mc/book_chap3.pdf
@@ -57,3 +62,4 @@ $ .\Park_Miller.exe 100
 - https://en.wikipedia.org/wiki/Xorshift
 - http://www.thesalmons.org/john/random123/papers/random123sc11.pdf
 - https://en.wikipedia.org/wiki/Lehmer_random_number_generator
+- https://en.wikipedia.org/wiki/Permuted_congruential_generator
